@@ -7,11 +7,11 @@
   </head>
   <body>
     <header>
-      <nav>
-        <div id="logo">
+      <nav id="navbar">
+        <div class="logo">
           <img src="" alt="Logo da clinica" />
         </div>
-        <div id="itens">
+        <div class="itens">
           <ul>
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#procedimentos">Procedimentos</a></li>
@@ -19,7 +19,7 @@
             <li><a href="#clinica">Clinica</a></li>
           </ul>
         </div>
-        <div id="btn-agendamento">
+        <div class="btn-agendamento">
           <button>
             <a href="">Agendar</a>
           </button>
@@ -27,6 +27,121 @@
       </nav>
     </header>
 
-    <main></main>
+    <main>
+      <section id="hero">
+        <img src="src/img/aline.jpeg" alt="foto aline" />
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+          <span class="badge">ESTÉTICA AVANÇADA · ATENDIMENTO INDIVIDUAL</span>
+          <h1>Sua pele cuidada com tecnica e profissionalismo</h1>
+          <p>
+            Protocolos faciais, capilares e de sobrancelha desenhados a partir
+            de uma avaliação completa. Sem receita de bolo: o tratamento é
+            montado para o seu caso.
+          </p>
+        </div>
+
+        <div class="hero-buttons">
+          <a href="" class="btn-principal">Agendar Avaliação no WhatsApp</a>
+          <a href="" class="btn-secundario">Ver procedimentos</a>
+        </div>
+      </section>
+    </main>
+
+    <section id="faixa-topicos">
+      <div class="colums-topicos">
+        <div class="topico">
+          <span>Avaliação antes de tudo</span>
+          <p>Anamnese e análise de pele em toda primeira consulta.</p>
+        </div>
+
+        <div class="topico">
+          <span>Formação em Estética</span>
+          <p>Graduação em conclusão e atualização contínua em protocolos.</p>
+        </div>
+
+        <div class="topico">
+          <span>Produtos profissionais</span>
+          <p>Ativos de linhas profissionais, indicados por tipo de pele.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre">
+      <div class="sobre-content">
+        <div class="imagem-aline">
+          <img src="" alt="foto da aline" />
+        </div>
+
+        <div class="sobre-texto">
+          <span class="badge">Quem cuida de você</span>
+          <h1>Aline Baggio</h1>
+          <p class="paragrafo-01">
+            Beleza sempre foi o assunto que me puxou. O que começou como
+            interesse de menina virou escolha profissional: hoje estou
+            concluindo a graduação em Estética e atendo na minha própria
+            clínica.
+          </p>
+
+          <p class="paragrafo-02">
+            Atendo poucos horários por dia de propósito. Cada cliente tem tempo
+            de avaliação, explicação do protocolo e acompanhamento entre as
+            sessões — é assim que resultado consistente aparece.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="procedimentos">
+      <span class="secao-label">Procedimentos</span>
+      <h2>O que eu faço na clínica</h2>
+      <p class="secao-intro">
+        Todo procedimento começa com avaliação. O valor e o número de sessões
+        são definidos depois dela.
+      </p>
+
+      <div class="procedimentos-grid">
+        <article class="card-procedimento">
+          <span class="card-categoria">Facial</span>
+          <h3>Limpeza de pele</h3>
+          <p>
+            Higienização, extração e hidratação em profundidade, adaptada ao seu
+            tipo de pele.
+          </p>
+          <a href="#contato" class="card-link">Explorar</a>
+        </article>
+
+        <article class="card-procedimento">
+          <span class="card-categoria">Sobrancelha</span>
+          <h3>Remoção de micropigmentação</h3>
+          <p>
+            Clareamento progressivo do pigmento antigo, avaliado conforme
+            profundidade e cor.
+          </p>
+          <a href="#contato" class="card-link">Explorar</a>
+        </article>
+
+        <article class="card-procedimento">
+          <span class="card-categoria">Remoção</span>
+          <h3>Remoção de tatuagem</h3>
+          <p>
+            Clareamento progressivo por sessões, respeitando o tempo de
+            cicatrização da pele.
+          </p>
+          <a href="#contato" class="card-link">Explorar</a>
+        </article>
+
+        <article class="card-procedimento card-procedimento--destaque">
+          <span class="card-categoria">Capilar</span>
+          <h3>Reconstrução de fios</h3>
+          <p>
+            Tratamento intensivo para fios danificados, devolvendo força, brilho
+            e maciez.
+          </p>
+          <a href="#contato" class="card-link">Explorar</a>
+        </article>
+      </div>
+    </section>
   </body>
 </html>
